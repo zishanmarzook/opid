@@ -1,0 +1,11 @@
+{
+  "name": "return-ready",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A local-first purchase return and warranty tracker",
+  "scripts": {
+    "check": "node --check dist/app.js && node --check dist/core.js && node --check dist/sw.js",
+    "test": "node --test --test-isolation=none tests/*.test.js"
+  }
+}
